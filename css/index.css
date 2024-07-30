@@ -1,0 +1,81 @@
+body {
+    direction: rtl;
+    font-size: 14px;
+    background-color: rgb(70, 70, 70);
+}
+ 
+.main_meno{
+    color: white;
+}
+.meno > ul > li {
+    list-style-type: none;
+    border: white solid 1px;
+    padding: 13px;
+    margin: 12px;
+    width: 250px;
+  }
+.first_icon {
+    position: absolute;
+    
+}
+.seccond_icon {
+    position: absolute;
+    right: 301px;
+  }
+
+  .items {
+    display: inline;
+    position: relative;
+    right: 39px;
+  }
+.first_ul_li {
+    padding: 6px;
+    margin: 9px;
+      margin-top: 9px;
+    position: relative;
+    right: -50px;
+    width: 100%;
+    list-style-type: none;
+    margin-top: 17px;
+    border: white solid 2px ;
+  }
+.seccond_ul_li {
+    padding: 6px;
+    margin: 9px;
+      margin-top: 9px;
+    position: relative;
+    right: -50px;
+    width: 100%;
+    list-style-type: none;
+    margin-top: 17px;
+    border: white solid 2px ;
+}
+.third_ul_li {
+    padding: 6px;
+    margin: 9px;
+      margin-top: 9px;
+    position: relative;
+    right: -50px;
+    width: 100%;
+    list-style-type: none;
+    margin-top: 17px;
+    border: white solid 2px ;
+}
+.fourth_ul_li {
+    padding: 6px;
+    margin: 9px;
+      margin-top: 9px;
+    position: relative;
+    right: -50px;
+    width: 100%;
+    list-style-type: none;
+    margin-top: 17px;
+    border: white solid 2px ;
+}
+
+.first_main_meno , .seccond_main_meno , .third_main_meno , .fourth_main_meno {
+    cursor: pointer;
+}
+.first_ul{
+    display: none;
+}
